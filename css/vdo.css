@@ -273,7 +273,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .iconlink {
-  padding:10px;color:#fff;float: left;width:80px; cursor: pointer;
+  padding:10px;color:#fff;float: left;width:25%; cursor: pointer;
 }
 .iconlink:hover {
   background-color: #002d63;
