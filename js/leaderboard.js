@@ -1,1 +1,104 @@
-var _0x5812d3=_0x402d;(function(_0x2b6d54,_0x2032b5){var _0x2f4027=_0x402d,_0x5cccd3=_0x2b6d54();while(!![]){try{var _0x11f345=-parseInt(_0x2f4027(0x21d))/0x1*(-parseInt(_0x2f4027(0x205))/0x2)+-parseInt(_0x2f4027(0x214))/0x3*(parseInt(_0x2f4027(0x226))/0x4)+parseInt(_0x2f4027(0x202))/0x5+-parseInt(_0x2f4027(0x1f9))/0x6+parseInt(_0x2f4027(0x1f0))/0x7+-parseInt(_0x2f4027(0x1fd))/0x8+parseInt(_0x2f4027(0x217))/0x9*(parseInt(_0x2f4027(0x1f2))/0xa);if(_0x11f345===_0x2032b5)break;else _0x5cccd3['push'](_0x5cccd3['shift']());}catch(_0x31418e){_0x5cccd3['push'](_0x5cccd3['shift']());}}}(_0x48d0,0x278f2),$(document)[_0x5812d3(0x20d)](function(){var _0x2d99f3=_0x5812d3;sessionStorage['getItem']('EmpLevel')==null&&(location[_0x2d99f3(0x200)]='index.html'),$(_0x2d99f3(0x227))['html'](sessionStorage['getItem']('TNIdate')),Connect_DB();}));function _0x402d(_0x36b45b,_0x220c9d){var _0x48d005=_0x48d0();return _0x402d=function(_0x402d65,_0x128d99){_0x402d65=_0x402d65-0x1f0;var _0x338436=_0x48d005[_0x402d65];return _0x338436;},_0x402d(_0x36b45b,_0x220c9d);}function _0x48d0(){var _0x32be7d=['href','TNIdate','1055875lXwcdo','retailproject-6f4fc','html','10XMjlSf','forEach','<div\x20class=\x22leader-rank\x22><div\x20class=\x22Rainking-number\x22>','<div\x20style=\x22width:70%;float:\x20left;line-height:\x201.2;\x22><b>','</div>','Ranking','retailproject-6f4fc.appspot.com','<div\x20class=\x22btn-leaderboard1\x22\x20style=\x22background:#002d63;\x20color:#fff;\x22>','ready','TNImember','where','<div\x20class=\x22leader-rank\x22><div\x20class=\x22Rainking-number\x22\x20style=\x22color:#f68b1f;\x22>','\x20,\x20','then','</div><div\x20style=\x22font-size:10px;color:#fff;\x22>คะแนน</div></div>','12lBIlgC','data','<div\x20class=\x22btn-leaderboard1\x22\x20style=\x22background:#e6ecf8;\x22>','288uPysmp','collection','#DisplayUserRanking','1:653667385625:web:a5aed08500de80839f0588','retailproject-6f4fc.firebaseapp.com','replace','36779MALlZD','getItem','G-9SKTRHHSW9','<div\x20class=\x22btn-leaderboard1\x22\x20style=\x22background:#f68b1f;\x20color:#fff;\x22>','</div><div\x20style=\x22font-size:10px;color:#fff;\x22>อันดับ</div></div>','</div><div\x20style=\x22font-size:10px;\x22>คะแนน</div></div>','EmpRH','limit','test','197108gNOPjM','#DateUpload','<br>Zone-','orderBy','576338edlgEs','get','19640YVwOtJ','EmpPoint','EmpID','</div><div\x20style=\x22font-size:10px;\x22>อันดับ</div></div>','653667385625','split','EmpGroup','737868Atacey','EmpBranch','</b><br>','firestore','465056CKDWiI','asc','EmpZone'];_0x48d0=function(){return _0x32be7d;};return _0x48d0();}function Connect_DB(){var _0x488b63=_0x5812d3,_0x5ea516={'apiKey':'AIzaSyDfTJJ425U4OY0xac6jdhtSxDeuJ-OF-lE','authDomain':_0x488b63(0x21b),'projectId':_0x488b63(0x203),'databaseURL':'https://file-upload-6f4fc.firebaseio.com','storageBucket':_0x488b63(0x20b),'messagingSenderId':_0x488b63(0x1f6),'appId':_0x488b63(0x21a),'measurementId':_0x488b63(0x21f)};firebase['initializeApp'](_0x5ea516),dbTNIdate=firebase[_0x488b63(0x1fc)]()[_0x488b63(0x218)](_0x488b63(0x201)),dbTNInember=firebase[_0x488b63(0x1fc)]()[_0x488b63(0x218)](_0x488b63(0x20e)),UserRanking(),ListRanking();}function UserRanking(){var _0x3dfab7=_0x5812d3,_0x2757de='';dbTNInember[_0x3dfab7(0x20f)]('EmpID','==',parseFloat(sessionStorage[_0x3dfab7(0x21e)]('EmpID')))[_0x3dfab7(0x224)](0x1)['get']()[_0x3dfab7(0x212)](_0x5110d8=>{var _0x1b1f1c=_0x3dfab7;_0x5110d8[_0x1b1f1c(0x206)](_0x114b61=>{var _0x47dce9=_0x1b1f1c;_0x2757de+=_0x47dce9(0x20c),_0x2757de+=_0x47dce9(0x208)+_0x114b61[_0x47dce9(0x215)]()['EmpName']+_0x47dce9(0x1fb)+_0x114b61['data']()['EmpBranch']+_0x47dce9(0x228)+_0x114b61[_0x47dce9(0x215)]()[_0x47dce9(0x1ff)]+_0x47dce9(0x211)+_0x114b61[_0x47dce9(0x215)]()[_0x47dce9(0x223)]+'</div>',_0x2757de+=_0x47dce9(0x210)+addCommas(_0x114b61[_0x47dce9(0x215)]()[_0x47dce9(0x20a)])+_0x47dce9(0x221),_0x2757de+=_0x47dce9(0x210)+addCommas(_0x114b61[_0x47dce9(0x215)]()['EmpPoint'])+_0x47dce9(0x213),_0x2757de+=_0x47dce9(0x209),$(_0x47dce9(0x219))[_0x47dce9(0x204)](_0x2757de);});});}function ListRanking(){var _0x254a82=_0x5812d3,_0x1305e1='';dbTNInember[_0x254a82(0x20f)](_0x254a82(0x1f8),'==',sessionStorage[_0x254a82(0x21e)](_0x254a82(0x1f8)))[_0x254a82(0x229)]('Ranking',_0x254a82(0x1fe))['limit'](0x1e)[_0x254a82(0x1f1)]()[_0x254a82(0x212)](_0x2bcc1c=>{var _0x3d82e9=_0x254a82;_0x2bcc1c[_0x3d82e9(0x206)](_0x1601c3=>{var _0x39f0ac=_0x3d82e9;_0x1601c3[_0x39f0ac(0x215)]()[_0x39f0ac(0x1f3)]>0x0&&(_0x1601c3[_0x39f0ac(0x215)]()[_0x39f0ac(0x1f4)]==parseFloat(sessionStorage['getItem'](_0x39f0ac(0x1f4)))?_0x1305e1+=_0x39f0ac(0x220):_0x1601c3['data']()[_0x39f0ac(0x20a)]<0x4?_0x1305e1+=_0x39f0ac(0x216):_0x1305e1+='<div\x20class=\x22btn-leaderboard1\x22\x20style=\x22background:#feebd5;\x22>',_0x1305e1+='<div\x20style=\x22width:70%;float:\x20left;line-height:\x201.2;\x22><b>'+_0x1601c3[_0x39f0ac(0x215)]()['EmpName']+_0x39f0ac(0x1fb)+_0x1601c3['data']()[_0x39f0ac(0x1fa)]+_0x39f0ac(0x228)+_0x1601c3[_0x39f0ac(0x215)]()['EmpZone']+_0x39f0ac(0x211)+_0x1601c3[_0x39f0ac(0x215)]()[_0x39f0ac(0x223)]+'</div>',_0x1305e1+=_0x39f0ac(0x207)+addCommas(_0x1601c3[_0x39f0ac(0x215)]()[_0x39f0ac(0x20a)])+_0x39f0ac(0x1f5),_0x1305e1+='<div\x20class=\x22leader-rank\x22><div\x20class=\x22Rainking-number\x22>'+addCommas(_0x1601c3[_0x39f0ac(0x215)]()[_0x39f0ac(0x1f3)])+_0x39f0ac(0x222),_0x1305e1+='</div>');}),$('#DisplayRanking')[_0x3d82e9(0x204)](_0x1305e1);});}function addCommas(_0x980b19){var _0x10b7ff=_0x5812d3;_0x980b19+='',x=_0x980b19[_0x10b7ff(0x1f7)]('.'),x1=x[0x0],x2=x['length']>0x1?'.'+x[0x1]:'';var _0x4148da=/(\d+)(\d{3})/;while(_0x4148da[_0x10b7ff(0x225)](x1)){x1=x1[_0x10b7ff(0x21c)](_0x4148da,'$1'+','+'$2');}return x1+x2;}
+
+
+$(document).ready(function () {
+  if(sessionStorage.getItem("EmpLevel")==null) { location.href = "index.html"; }
+  $("#DateUpload").html(sessionStorage.getItem("TNIdate"));  
+
+  //alert(sessionStorage.getItem("EmpGroup"));
+ 	Connect_DB();
+  //CheckTNIdate();
+});
+
+
+function Connect_DB() {
+  var firebaseConfig = {
+    apiKey: "AIzaSyDfTJJ425U4OY0xac6jdhtSxDeuJ-OF-lE",
+    authDomain: "retailproject-6f4fc.firebaseapp.com",
+    projectId: "retailproject-6f4fc",
+    databaseURL: "https://file-upload-6f4fc.firebaseio.com",
+    storageBucket: "retailproject-6f4fc.appspot.com",
+    messagingSenderId: "653667385625",
+    appId: "1:653667385625:web:a5aed08500de80839f0588",
+    measurementId: "G-9SKTRHHSW9"
+  };
+  firebase.initializeApp(firebaseConfig);
+  dbTNIdate = firebase.firestore().collection("TNIdate");
+  dbTNInember = firebase.firestore().collection("TNImember");
+  UserRanking();
+  ListRanking();
+}
+
+/*
+function CheckTNIdate() {
+  dbTNIdate.limit(1)
+  .get().then((snapshot)=> {
+    snapshot.forEach(doc=> {
+      sessionStorage.setItem("TNIdate", doc.data().DateUpload);
+      $("#DateUpload").html(doc.data().DateUpload);  
+    });
+  });
+}
+*/
+
+function UserRanking() {
+  var str = "";
+  dbTNInember.where('EmpID','==',parseFloat(sessionStorage.getItem("EmpID")))
+  .limit(1).get().then((snapshot)=> {
+    snapshot.forEach(doc=> {
+        str += '<div class="btn-leaderboard1" style="background:#002d63; color:#fff;">';
+        str += '<div style="width:70%;float: left;line-height: 1.2;"><b>'+doc.data().EmpName+'</b><br>'+doc.data().EmpBranch+'<br>Zone-'+doc.data().EmpZone+' , '+doc.data().EmpRH+'</div>';
+        str += '<div class="leader-rank"><div class="Rainking-number" style="color:#f68b1f;">'+addCommas(doc.data().Ranking)+'</div><div style="font-size:10px;color:#fff;">อันดับ</div></div>';
+        str += '<div class="leader-rank"><div class="Rainking-number" style="color:#f68b1f;">'+addCommas(doc.data().EmpPoint)+'</div><div style="font-size:10px;color:#fff;">คะแนน</div></div>';
+        str += '</div>';        
+        $("#DisplayUserRanking").html(str);
+    });
+  });
+}
+
+
+function ListRanking() {
+  var str = "";
+  //alert(sessionStorage.getItem("EmpGroup"));
+  dbTNInember.where('EmpGroup','==',sessionStorage.getItem("EmpGroup"))
+  .orderBy('Ranking','asc')
+  .limit(50)
+  .get().then((snapshot)=> {
+    snapshot.forEach(doc=> {
+      if(doc.data().EmpPoint>0) {
+        //alert(doc.data().EmpID+"==="+sessionStorage.getItem("EmpID"));
+        if(doc.data().EmpID==parseFloat(sessionStorage.getItem("EmpID"))) {
+            str += '<div class="btn-leaderboard1" style="background:#f68b1f; color:#fff;">';
+        } else {
+        if(doc.data().Ranking<4) {
+            str += '<div class="btn-leaderboard1" style="background:#e6ecf8;">';
+          } else {
+            str += '<div class="btn-leaderboard1" style="background:#feebd5;">';
+          }          
+        }
+
+
+  
+
+        str += '<div style="width:70%;float: left;line-height: 1.2;"><b>'+doc.data().EmpName+'</b><br>'+doc.data().EmpBranch+'<br>Zone-'+doc.data().EmpZone+' , '+doc.data().EmpRH+'</div>';
+        str += '<div class="leader-rank"><div class="Rainking-number">'+addCommas(doc.data().Ranking)+'</div><div style="font-size:10px;">อันดับ</div></div>';
+        str += '<div class="leader-rank"><div class="Rainking-number">'+addCommas(doc.data().EmpPoint)+'</div><div style="font-size:10px;">คะแนน</div></div>';
+        str += '</div>';        
+      }
+    });
+    $("#DisplayRanking").html(str);
+  });
+}
+
+
+
+function addCommas(nStr) {
+  nStr += '';
+  x = nStr.split('.');
+  x1 = x[0];
+  x2 = x.length > 1 ? '.' + x[1] : '';
+  var rgx = /(\d+)(\d{3})/;
+  while (rgx.test(x1)) {
+    x1 = x1.replace(rgx, '$1' + ',' + '$2');
+  }
+  return x1 + x2;
+}
