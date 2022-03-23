@@ -17,6 +17,7 @@ const x = document.querySelectorAll(`div.com[min="${i}"]`);
 
 
 $(document).ready(function () {
+  sessionStorage.clear();
   /*
   var str = "";
   var sLineID = "Ua6b6bf745bd9bfd01a180de1a05c23b3";
@@ -31,15 +32,14 @@ $(document).ready(function () {
   Connect_DB();
   CheckTNIdate();
   CheckData();
-  */
-
+  */  
   main();
 });
 
 
 
 async function main() {
-  await liff.init({ liffId: "1655966947-ZQna9Rop" });
+  await liff.init({ liffId: "5966947-ZQna9Rop" });
   document.getElementById("isLoggedIn").append(liff.isLoggedIn());
   if(liff.isLoggedIn()) {
     getUserProfile();
