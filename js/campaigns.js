@@ -1,12 +1,1 @@
-$(document).ready(function () {
-  if(sessionStorage.getItem("EmpLevel")==null) { location.href = "index.html"; }
-});
-
-function OpenLink(x) {
-  if(x==1) {
-    window.open("https://www.ttbbank.com/th");
-    //location.href = "https://www.ttbbank.com/th";
-  } else if(x==2) { 
-    window.open("https://www.ttbbank.com/th/fin-tips/mindful-spending-and-start-saving");
-  }
-}
+function _0x40b4(_0x1c7216,_0x26e813){var _0x452ee9=_0x452e();return _0x40b4=function(_0x40b4cf,_0x6589d3){_0x40b4cf=_0x40b4cf-0x156;var _0xb36267=_0x452ee9[_0x40b4cf];return _0xb36267;},_0x40b4(_0x1c7216,_0x26e813);}var _0x2f4d88=_0x40b4;(function(_0x27b2f1,_0x5e29e7){var _0x13cad4=_0x40b4,_0x2330da=_0x27b2f1();while(!![]){try{var _0x4c8bae=parseInt(_0x13cad4(0x15f))/0x1*(-parseInt(_0x13cad4(0x15a))/0x2)+-parseInt(_0x13cad4(0x160))/0x3+parseInt(_0x13cad4(0x15d))/0x4+-parseInt(_0x13cad4(0x165))/0x5+-parseInt(_0x13cad4(0x163))/0x6+parseInt(_0x13cad4(0x157))/0x7+parseInt(_0x13cad4(0x161))/0x8*(parseInt(_0x13cad4(0x15b))/0x9);if(_0x4c8bae===_0x5e29e7)break;else _0x2330da['push'](_0x2330da['shift']());}catch(_0x27a129){_0x2330da['push'](_0x2330da['shift']());}}}(_0x452e,0xa3539),$(document)[_0x2f4d88(0x164)](function(){var _0x5d9fcb=_0x2f4d88;sessionStorage[_0x5d9fcb(0x162)](_0x5d9fcb(0x15e))==null&&(location[_0x5d9fcb(0x156)]=_0x5d9fcb(0x159));}));function OpenLink(_0x50b1d1){var _0x54bab6=_0x2f4d88;if(_0x50b1d1==0x1)window[_0x54bab6(0x15c)]('https://www.ttbbank.com/th');else _0x50b1d1==0x2&&window[_0x54bab6(0x15c)](_0x54bab6(0x158));}function _0x452e(){var _0x48ccef=['270260EmOvyr','href','5243161AYneGv','https://www.ttbbank.com/th/fin-tips/mindful-spending-and-start-saving','index.html','2077364VcSsEK','333rxHXgz','open','756264hHKafj','EmpLevel','1OwfYkE','1386882dKkrxy','434440ydEteT','getItem','4340166hrNfKX','ready'];_0x452e=function(){return _0x48ccef;};return _0x452e();}
