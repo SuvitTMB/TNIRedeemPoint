@@ -12,6 +12,7 @@ var sCheckRedeemPoint = 0;
 var sCheckTNIapprove = 0
 var sCheckLevel = 0;
 var sCodeName = "TNIRedeemPoint"
+var sMemberlog = "";
 const x = document.querySelectorAll(`div.com[min="${i}"]`);
 
 
@@ -57,7 +58,7 @@ async function getUserProfile() {
   sessionStorage.setItem("LineID", profile.userId);
   sessionStorage.setItem("LineName", profile.displayName);
   sessionStorage.setItem("LinePicture", profile.pictureUrl);
-  str += '<div><img src="'+ sessionStorage.getItem("LinePicture") +'" class="add-profile"></div>';
+  str += '<div><img src="'+ sessionStorage.getItem("LinePicture") +'" class="add-profile" width="100px"></div>';
   str += '<div class="NameLine">'+ sessionStorage.getItem("LineName")+'</div>';
   $("#MyProfile").html(str);  
   Connect_DB();
@@ -89,6 +90,7 @@ function Connect_DB() {
   dbTNIdate = firebase.firestore().collection("TNIdate");
   dbTNIapprove = firebase.firestore().collection("TNImember");
   dbTNIRedeemPoint = firebase.firestore().collection("TNIRedeemPoint");
+  dbTNIlog = firebase.firestore().collection("TNIlog");
 }
 
 
@@ -145,11 +147,15 @@ function CheckTNIapprove() {
       sTNIapprove = 1
       sessionStorage.setItem("EmpGroup", doc.data().EmpGroup);
       sessionStorage.setItem("EmpLevel", 1);
+      sMemberlog = "สำเร็จ";
+      SaveBA_Log();
       CheckNewRedeemPoint();
       //location.href = 'home.html';
     });
     if(sTNIapprove==0) {
-      WaitingPage()
+      sMemberlog = "ไม่สำเร็จ";
+      SaveBA_Log();
+      WaitingPage();
       //document.getElementById('Loading').style.display='none';
       //document.getElementById('myTimer').style.display='block';
     }
@@ -236,6 +242,20 @@ function ClickSaveProfile() {
 }
 
 
+function SaveBA_Log() {
+  NewDate();
+  var TimeStampDate = Math.round(Date.now() / 1000);
+  dbTNIlog.add({
+    LineID : sessionStorage.getItem("LineID"),
+    LineName : sessionStorage.getItem("LineName"),
+    LinePicture : sessionStorage.getItem("LinePicture"),
+    EmpID : sessionStorage.getItem("EmpID"),
+    EmpName : sessionStorage.getItem("EmpName"),
+    PageVisit : sMemberlog,
+    LogDateTime : dateString,
+    LogTimeStamp : TimeStampDate
+  });
+}
 
 
 function SaveData() {
