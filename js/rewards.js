@@ -1,1 +1,372 @@
-var _0x533c93=_0x11d3;(function(_0x406fc0,_0x5e0c9a){var _0x10f4d9=_0x11d3,_0x1bfcd8=_0x406fc0();while(!![]){try{var _0x18a183=parseInt(_0x10f4d9(0x1c5))/0x1+-parseInt(_0x10f4d9(0x17e))/0x2+parseInt(_0x10f4d9(0x195))/0x3*(parseInt(_0x10f4d9(0x1a4))/0x4)+-parseInt(_0x10f4d9(0x1e2))/0x5+parseInt(_0x10f4d9(0x1ca))/0x6+-parseInt(_0x10f4d9(0x1c3))/0x7+parseInt(_0x10f4d9(0x1ce))/0x8;if(_0x18a183===_0x5e0c9a)break;else _0x1bfcd8['push'](_0x1bfcd8['shift']());}catch(_0x4a68fc){_0x1bfcd8['push'](_0x1bfcd8['shift']());}}}(_0x3181,0x3be4f));var cleararray='',dbTNIStock='',EidStockID='',EidRedeem='',EidRedeemPoint='',sStockName='',sStockRedeem='',sStockImg='',sStockDetail='',OpenMenu=0x0,PointForRedeem=0x0,sTotalPointRedeem=0x0,sTotalItemRedeem=0x0,dateString=new Date()[_0x533c93(0x19e)]('en-US',{'timeZone':_0x533c93(0x191)});function _0x11d3(_0x3d0afe,_0x48207f){var _0x31813e=_0x3181();return _0x11d3=function(_0x11d3c5,_0x201ba2){_0x11d3c5=_0x11d3c5-0x164;var _0x57ce3b=_0x31813e[_0x11d3c5];return _0x57ce3b;},_0x11d3(_0x3d0afe,_0x48207f);}function _0x3181(){var _0x49bee8=['doc','get','TNIRedeemPoint','<div\x20class=\x22col-lg-6\x20col-md-2\x20slide\x20text-center\x20boxvdo\x22\x20data-aos=\x22fade-left\x22>','<table\x20class=\x22table\x20table-bordered\x20table-striped\x20table-responsive-stack\x22\x20style=\x22margin:10px\x20auto;width:95%;\x22>','973550xcIIMF','<div\x20class=\x22boxvdo-line2\x22><div\x20class=\x22btn-t0\x22\x20style=\x22font-size:11px;\x22>ใช้\x20','DateRedeem','DisplayNotOpen','%</p></div></div></div>','then','TNIStocklog','desc','getFullYear','ready','collection','<div\x20class=\x22boxvdo-header\x22\x20style=\x22text-align:left;\x22>','<div\x20class=\x22boxvdo-border\x20member\x22\x20style=\x22min-height:\x20100px;\x22><div\x20class=\x22boxvdo-img\x22>','<div\x20class=\x22boxvdo-line2\x22\x20style=\x22color:#f68b1f;height:16px;\x22>แลกรางวัลเมื่อ\x20:\x20','RedeemTimeStamp','<img\x20src=\x22','DisplayRedeemRewards','https://file-upload-6f4fc.firebaseio.com','<td\x20style=\x22line-height:\x201.3;\x22>รหัสสินค้า\x20<font\x20color=\x22#f68b1f\x22><b>','Asia/Jakarta','display','#mm3','LinePicture','17337NwEfFe','<div\x20class=\x22boxvdo-border\x20member\x22><div\x20class=\x22boxvdo-img\x22>','StockName','</div></div></div>','test','StockDetail','StockRedeem','firestore','\x20คะแนน</font><br>','toLocaleString','getItem','#mm1','StockStatus',')\x22>ใช้\x20','addClass','160imzOIg','#DisplayShowRewards','TNIStock','#DisplayStockDetail','#DisplayLastPoint','</tr>','G-9SKTRHHSW9','where','\x20Point','#mm2','</font></td>','#DisplayImg','btnCheck','</div></div></div></div>','TotalPointRedeem','1:653667385625:web:a5aed08500de80839f0588','<thead\x20class=\x22thead-dark\x22><tr><th>รายการยืนยันการแลกรางวัล</th></tr></thead><tbody>','round','retailproject-6f4fc','<div\x20class=\x22progress\x22><div\x20class=\x22bar\x22\x20style=\x22width:','TotalItemRedeem','<div\x20class=\x22boxvdo-line2\x22><div\x20class=\x22btn-t2\x22\x20style=\x22font-size:11px;\x22\x20onclick=\x22OpenRewards(\x27','%\x22>','data','toFixed','none','id01','update','block','getElementById','TNIStockConfirm','540974cNJOBK','EmpLevel','151134yhxmeO','<div\x20class=\x22progress\x22><div\x20class=\x22bar1\x22\x20style=\x22width:','#DisplayDoneRewards','getMinutes','retailproject-6f4fc.appspot.com','177774MsDmbG','LineName','\x22\x20class=\x22img-fluid\x22\x20style=\x22border-radius:\x2010px;\x22>','split','6692144IbBqvz','orderBy','add','#DisplayScorePoint','getDate','vdo-mondee.html?gid=','EmpGroup','href','forEach','\x22\x20width=\x22100%\x22>','html','PointRedeem','retailproject-6f4fc.firebaseapp.com','#DisplayNotOpen','DisplayShowRewards','AIzaSyDfTJJ425U4OY0xac6jdhtSxDeuJ-OF-lE','getSeconds','documentId','<div\x20class=\x22boxvdo-line1\x22>','<div\x20class=\x22clr\x22></div><center><div\x20class=\x22NameLine\x22\x20style=\x22margin:20px\x20auto;\x22><u>รายการที่ยังไม่ได้เปิดให้แลก</u></div></center>','2195285fYTouW','ActivePoint','DisplayDoneRewards','now','style','</b></font><br>คะแนนที่แลก\x20<font\x20color=\x22#0056ff\x22>','FieldPath','removeClass','setItem','<div\x20class=\x22col-lg-6\x20col-md-2\x20slide\x20text-center\x20boxvdo\x20imgblack\x22\x20data-aos=\x22fade-left\x22>','\x20Point</div>','id02','StockImg','#DisplayRedeemRewards','<div\x20class=\x22btn-orange\x22\x20style=\x22margin-top:-4px;font-size:\x2014px;\x22>คุณมี\x20','<div\x20class=\x22col-lg-6\x20col-md-2\x20slide\x20text-center\x20boxvdo\x22\x20data-aos=\x22fade-left\x22\x20style=\x22min-height:\x20100px;\x22>','EmpID','#DisplayStockName','</div>','<p\x20class=\x22percent\x22>','<div\x20class=\x22boxvdo-title\x22><div\x20class=\x22boxvdo-header\x22>','\x20Point\x20แลก</div>','DateConfirm'];_0x3181=function(){return _0x49bee8;};return _0x3181();}$(document)[_0x533c93(0x187)](function(){var _0x3d6b47=_0x533c93;sessionStorage[_0x3d6b47(0x19f)](_0x3d6b47(0x1c4))==null&&(location[_0x3d6b47(0x1d5)]='index.html'),$(_0x3d6b47(0x1a8))[_0x3d6b47(0x1d8)](_0x3d6b47(0x170)+addCommas(sessionStorage[_0x3d6b47(0x19f)](_0x3d6b47(0x1e3)))+_0x3d6b47(0x16c)),document[_0x3d6b47(0x1c1)]('DisplayShowRewards')[_0x3d6b47(0x166)]['display']='block',Connect_DB();});function Connect_DB(){var _0x1fc800=_0x533c93,_0x18c8f4={'apiKey':_0x1fc800(0x1dd),'authDomain':_0x1fc800(0x1da),'projectId':_0x1fc800(0x1b6),'databaseURL':_0x1fc800(0x18f),'storageBucket':_0x1fc800(0x1c9),'messagingSenderId':'653667385625','appId':_0x1fc800(0x1b3),'measurementId':_0x1fc800(0x1aa)};firebase['initializeApp'](_0x18c8f4),dbTNIStock=firebase[_0x1fc800(0x19c)]()['collection'](_0x1fc800(0x1a6)),dbTNIStocklog=firebase[_0x1fc800(0x19c)]()[_0x1fc800(0x188)](_0x1fc800(0x184)),dbTNIRedeemPoint=firebase['firestore']()[_0x1fc800(0x188)](_0x1fc800(0x17b)),dbStockConfirm=firebase[_0x1fc800(0x19c)]()['collection'](_0x1fc800(0x1c2)),CheckRedeemPoint(),LoadRewardStock(),LoadNotOpen();}function CheckRedeemPoint(){var _0x332592=_0x533c93;dbTNIRedeemPoint['where'](_0x332592(0x172),'==',parseFloat(sessionStorage[_0x332592(0x19f)]('EmpID')))[_0x332592(0x17a)]()[_0x332592(0x183)](_0x57cb0=>{var _0x4accca=_0x332592;_0x57cb0[_0x4accca(0x1d6)](_0x1c71fc=>{var _0x24cb53=_0x4accca;EidRedeemPoint=_0x1c71fc['id'],sTotalPointRedeem=_0x1c71fc['data']()[_0x24cb53(0x1b2)],sTotalItemRedeem=_0x1c71fc[_0x24cb53(0x1bb)]()[_0x24cb53(0x1b8)],sessionStorage[_0x24cb53(0x16a)](_0x24cb53(0x1b2),_0x1c71fc[_0x24cb53(0x1bb)]()[_0x24cb53(0x1b2)]),sessionStorage[_0x24cb53(0x16a)]('TotalItemRedeem',_0x1c71fc[_0x24cb53(0x1bb)]()[_0x24cb53(0x1b8)]);});});}function LoadRewardStock(){var _0x12283f=_0x533c93,_0x41cc01=0x0,_0x23621d='',_0x10bdf0=sessionStorage['getItem'](_0x12283f(0x1e3));dbTNIStock[_0x12283f(0x1ab)](_0x12283f(0x1a1),'==',0x1)[_0x12283f(0x1cf)](_0x12283f(0x1d9),'asc')[_0x12283f(0x17a)]()['then'](_0x392ba4=>{var _0x405b40=_0x12283f;_0x392ba4[_0x405b40(0x1d6)](_0x521249=>{var _0x2f8a7e=_0x405b40;_0x41cc01=_0x41cc01+0x1;var _0x53a70e=0x0;_0x53a70e=parseFloat(sessionStorage[_0x2f8a7e(0x19f)](_0x2f8a7e(0x1e3)))/parseFloat(_0x521249[_0x2f8a7e(0x1bb)]()[_0x2f8a7e(0x1d9)])*0x64,_0x23621d+=_0x2f8a7e(0x17c),_0x23621d+=_0x2f8a7e(0x196),_0x23621d+=_0x2f8a7e(0x18d)+_0x521249['data']()[_0x2f8a7e(0x16e)]+_0x2f8a7e(0x1cc),_0x53a70e<0x64?(_0x23621d+=_0x2f8a7e(0x1c6)+_0x53a70e[_0x2f8a7e(0x1bc)](0x2)+_0x2f8a7e(0x1ba),_0x23621d+='<p\x20class=\x22percent\x22>'+_0x53a70e[_0x2f8a7e(0x1bc)](0x2)+_0x2f8a7e(0x182),_0x23621d+='<div\x20class=\x22boxvdo-title\x22><div\x20class=\x22boxvdo-header\x22>'+_0x521249['data']()['StockName']+_0x2f8a7e(0x174),_0x23621d+=_0x2f8a7e(0x1e0)+_0x521249[_0x2f8a7e(0x1bb)]()['StockDetail']+_0x2f8a7e(0x174),_0x23621d+=_0x2f8a7e(0x17f)+addCommas(_0x521249[_0x2f8a7e(0x1bb)]()[_0x2f8a7e(0x1d9)])+_0x2f8a7e(0x177)):(_0x53a70e>0x64&&(_0x53a70e=0x64),_0x23621d+=_0x2f8a7e(0x1b7)+_0x53a70e[_0x2f8a7e(0x1bc)](0x2)+_0x2f8a7e(0x1ba),_0x23621d+='<p\x20class=\x22percent\x22>'+_0x53a70e[_0x2f8a7e(0x1bc)](0x2)+_0x2f8a7e(0x182),_0x23621d+='<div\x20class=\x22boxvdo-title\x22><div\x20class=\x22boxvdo-header\x22>'+_0x521249['data']()['StockName']+_0x2f8a7e(0x174),_0x23621d+=_0x2f8a7e(0x1e0)+_0x521249['data']()[_0x2f8a7e(0x19a)]+_0x2f8a7e(0x174),_0x23621d+='<div\x20class=\x22boxvdo-line2\x22><div\x20class=\x22btn-t2\x22\x20style=\x22font-size:11px;\x22\x20onclick=\x22OpenRewards(\x27'+_0x521249['id']+'\x27,'+_0x41cc01+_0x2f8a7e(0x1a2)+addCommas(_0x521249['data']()[_0x2f8a7e(0x1d9)])+_0x2f8a7e(0x177)),_0x23621d+=_0x2f8a7e(0x1b1);}),$(_0x405b40(0x1a5))[_0x405b40(0x1d8)](_0x23621d),document[_0x405b40(0x1c1)](_0x405b40(0x181))[_0x405b40(0x166)][_0x405b40(0x192)]=_0x405b40(0x1c0);});}function LoadNotOpen(){var _0x3e6f73=_0x533c93,_0x38905f=0x0,_0x99560d='',_0x450718=sessionStorage[_0x3e6f73(0x19f)]('ActivePoint');_0x99560d+=_0x3e6f73(0x1e1),dbTNIStock[_0x3e6f73(0x1ab)](_0x3e6f73(0x1a1),'==',0x9)[_0x3e6f73(0x1cf)](_0x3e6f73(0x1d9),'asc')[_0x3e6f73(0x17a)]()[_0x3e6f73(0x183)](_0x12f683=>{var _0x327892=_0x3e6f73;_0x12f683['forEach'](_0x357e5e=>{var _0x157bb8=_0x11d3;_0x38905f=_0x38905f+0x1;var _0x17d525=0x0;_0x17d525=parseFloat(sessionStorage['getItem'](_0x157bb8(0x1e3)))/parseFloat(_0x357e5e[_0x157bb8(0x1bb)]()[_0x157bb8(0x1d9)])*0x64,_0x99560d+=_0x157bb8(0x16b),_0x99560d+=_0x157bb8(0x196),_0x99560d+=_0x157bb8(0x18d)+_0x357e5e[_0x157bb8(0x1bb)]()['StockImg']+'\x22\x20class=\x22img-fluid\x22\x20style=\x22border-radius:\x2010px;\x22>',_0x17d525<0x64?(_0x99560d+=_0x157bb8(0x1c6)+_0x17d525['toFixed'](0x2)+_0x157bb8(0x1ba),_0x99560d+='<p\x20class=\x22percent\x22>'+_0x17d525[_0x157bb8(0x1bc)](0x2)+_0x157bb8(0x182),_0x99560d+=_0x157bb8(0x176)+_0x357e5e[_0x157bb8(0x1bb)]()[_0x157bb8(0x197)]+_0x157bb8(0x174),_0x99560d+=_0x157bb8(0x1e0)+_0x357e5e['data']()[_0x157bb8(0x19a)]+_0x157bb8(0x174),_0x99560d+=_0x157bb8(0x17f)+addCommas(_0x357e5e[_0x157bb8(0x1bb)]()[_0x157bb8(0x1d9)])+_0x157bb8(0x177)):(_0x17d525>0x64&&(_0x17d525=0x64),_0x99560d+=_0x157bb8(0x1b7)+_0x17d525[_0x157bb8(0x1bc)](0x2)+_0x157bb8(0x1ba),_0x99560d+=_0x157bb8(0x175)+_0x17d525[_0x157bb8(0x1bc)](0x2)+_0x157bb8(0x182),_0x99560d+=_0x157bb8(0x176)+_0x357e5e[_0x157bb8(0x1bb)]()[_0x157bb8(0x197)]+_0x157bb8(0x174),_0x99560d+='<div\x20class=\x22boxvdo-line1\x22>'+_0x357e5e[_0x157bb8(0x1bb)]()[_0x157bb8(0x19a)]+_0x157bb8(0x174),_0x99560d+=_0x157bb8(0x1b9)+_0x357e5e['id']+'\x27,'+_0x38905f+_0x157bb8(0x1a2)+addCommas(_0x357e5e[_0x157bb8(0x1bb)]()[_0x157bb8(0x1d9)])+_0x157bb8(0x177)),_0x99560d+=_0x157bb8(0x1b1);}),$(_0x327892(0x1db))[_0x327892(0x1d8)](_0x99560d);});}function LoadRedeem(){var _0x25e7dc=_0x533c93,_0x29d5fe='';dbTNIStocklog[_0x25e7dc(0x1ab)](_0x25e7dc(0x172),'==',sessionStorage[_0x25e7dc(0x19f)](_0x25e7dc(0x172)))['where']('StatusRedeem','==',0x0)[_0x25e7dc(0x1cf)](_0x25e7dc(0x18c),_0x25e7dc(0x185))[_0x25e7dc(0x17a)]()['then'](_0xd0d2f0=>{var _0x5a7ffb=_0x25e7dc;_0xd0d2f0[_0x5a7ffb(0x1d6)](_0x3a5cc5=>{var _0x5cc33a=_0x5a7ffb;_0x29d5fe+=_0x5cc33a(0x171),_0x29d5fe+=_0x5cc33a(0x18a),_0x29d5fe+=_0x5cc33a(0x18d)+_0x3a5cc5['data']()[_0x5cc33a(0x16e)]+'\x22\x20class=\x22img-fluid\x22\x20style=\x22border-radius:\x2010px;\x22></div>',_0x29d5fe+=_0x5cc33a(0x176)+_0x3a5cc5['data']()[_0x5cc33a(0x197)]+'</div>',_0x29d5fe+=_0x5cc33a(0x1e0)+_0x3a5cc5[_0x5cc33a(0x1bb)]()[_0x5cc33a(0x19a)]+_0x5cc33a(0x174),_0x29d5fe+=_0x5cc33a(0x18b)+_0x3a5cc5['data']()['DateRedeem']+'</div>',_0x29d5fe+=_0x5cc33a(0x198);}),$(_0x5a7ffb(0x16f))[_0x5a7ffb(0x1d8)](_0x29d5fe);});}function DoneRedeem(){var _0x263ea2=_0x533c93,_0x365757='';_0x365757+=_0x263ea2(0x17d),_0x365757+=_0x263ea2(0x1b4),dbStockConfirm[_0x263ea2(0x1ab)](_0x263ea2(0x172),'==',parseFloat(sessionStorage['getItem']('EmpID')))[_0x263ea2(0x1cf)](_0x263ea2(0x180),_0x263ea2(0x185))[_0x263ea2(0x17a)]()[_0x263ea2(0x183)](_0x58186d=>{var _0x58b34d=_0x263ea2;_0x58186d[_0x58b34d(0x1d6)](_0x129d27=>{var _0x302174=_0x58b34d;_0x365757+='<tr>',_0x365757+=_0x302174(0x190)+_0x129d27[_0x302174(0x1bb)]()[_0x302174(0x197)]+_0x302174(0x167)+addCommas(_0x129d27['data']()[_0x302174(0x1d9)])+_0x302174(0x19d),_0x365757+='วันที่แลก\x20<font\x20color=\x22#0056ff\x22>'+_0x129d27[_0x302174(0x1bb)]()[_0x302174(0x180)]+'</font><br>วันที่ยืนยัน\x20<font\x20color=\x22#0056ff\x22>'+_0x129d27[_0x302174(0x1bb)]()[_0x302174(0x178)]+_0x302174(0x1ae),_0x365757+=_0x302174(0x1a9);}),_0x365757+='</tbody></table>',$(_0x58b34d(0x1c7))[_0x58b34d(0x1d8)](_0x365757);});}function OpenRewards(_0x13c408){var _0x80c602=_0x533c93;dbTNIStock['where'](firebase[_0x80c602(0x19c)][_0x80c602(0x168)][_0x80c602(0x1df)](),'==',_0x13c408)['get']()[_0x80c602(0x183)](_0x161c58=>{var _0x4ec9ae=_0x80c602;_0x161c58[_0x4ec9ae(0x1d6)](_0x350d00=>{var _0x5af1b4=_0x4ec9ae;EidStockID=_0x350d00['id'],PointForRedeem=_0x350d00[_0x5af1b4(0x1bb)]()['PointRedeem'],sStockName=_0x350d00[_0x5af1b4(0x1bb)]()[_0x5af1b4(0x197)],sStockRedeem=_0x350d00[_0x5af1b4(0x1bb)]()[_0x5af1b4(0x19b)],sStockImg=_0x350d00[_0x5af1b4(0x1bb)]()['StockImg'],sStockDetail=_0x350d00[_0x5af1b4(0x1bb)]()[_0x5af1b4(0x19a)],$(_0x5af1b4(0x1af))['html']('<img\x20src=\x22'+_0x350d00[_0x5af1b4(0x1bb)]()[_0x5af1b4(0x16e)]+_0x5af1b4(0x1d7)),$(_0x5af1b4(0x173))[_0x5af1b4(0x1d8)](_0x5af1b4(0x189)+_0x350d00[_0x5af1b4(0x1bb)]()[_0x5af1b4(0x197)]+_0x5af1b4(0x174)),$(_0x5af1b4(0x1a7))[_0x5af1b4(0x1d8)]('<div\x20class=\x22boxvdo-line1\x22\x20style=\x22text-align:left;height:auto;\x22>'+_0x350d00[_0x5af1b4(0x1bb)]()[_0x5af1b4(0x19a)]+_0x5af1b4(0x174)),$('#DisplayTotalRedeem')[_0x5af1b4(0x1d8)](addCommas(_0x350d00[_0x5af1b4(0x1bb)]()['StockRedeem'])+'\x20item'),$(_0x5af1b4(0x1d1))['html'](addCommas(sessionStorage[_0x5af1b4(0x19f)]('ActivePoint'))+_0x5af1b4(0x1ac)),$('#DisplayRedeemPoint')[_0x5af1b4(0x1d8)](addCommas(_0x350d00[_0x5af1b4(0x1bb)]()[_0x5af1b4(0x1d9)])+_0x5af1b4(0x1ac)),$('#DisplayTotalPoint')[_0x5af1b4(0x1d8)](addCommas(sessionStorage[_0x5af1b4(0x19f)](_0x5af1b4(0x1e3))-_0x350d00['data']()[_0x5af1b4(0x1d9)])+_0x5af1b4(0x1ac));});}),document[_0x80c602(0x1c1)](_0x80c602(0x1be))['style'][_0x80c602(0x192)]=_0x80c602(0x1c0);}function OpenStock(_0xa0deca,_0x5b2ab5){var _0x1b9aa1=_0x533c93;location['href']=_0x1b9aa1(0x1d3)+_0xa0deca+'';}function ClickMenu(_0x35e536){var _0x2a3dc5=_0x533c93;if(_0x35e536==0x1)$('#mm1')[_0x2a3dc5(0x1a3)](_0x2a3dc5(0x1b0)),$(_0x2a3dc5(0x1ad))['removeClass'](_0x2a3dc5(0x1b0)),$(_0x2a3dc5(0x193))[_0x2a3dc5(0x169)](_0x2a3dc5(0x1b0)),document['getElementById'](_0x2a3dc5(0x1dc))[_0x2a3dc5(0x166)]['display']=_0x2a3dc5(0x1c0),document['getElementById'](_0x2a3dc5(0x181))[_0x2a3dc5(0x166)][_0x2a3dc5(0x192)]=_0x2a3dc5(0x1c0),document['getElementById'](_0x2a3dc5(0x18e))[_0x2a3dc5(0x166)]['display']=_0x2a3dc5(0x1bd),document[_0x2a3dc5(0x1c1)](_0x2a3dc5(0x164))['style']['display']='none';else{if(_0x35e536==0x2)$('#mm1')[_0x2a3dc5(0x169)](_0x2a3dc5(0x1b0)),$(_0x2a3dc5(0x1ad))[_0x2a3dc5(0x1a3)](_0x2a3dc5(0x1b0)),$('#mm3')['removeClass'](_0x2a3dc5(0x1b0)),document[_0x2a3dc5(0x1c1)]('DisplayShowRewards')[_0x2a3dc5(0x166)][_0x2a3dc5(0x192)]=_0x2a3dc5(0x1bd),document[_0x2a3dc5(0x1c1)](_0x2a3dc5(0x181))[_0x2a3dc5(0x166)]['display']='none',document[_0x2a3dc5(0x1c1)]('DisplayRedeemRewards')[_0x2a3dc5(0x166)][_0x2a3dc5(0x192)]=_0x2a3dc5(0x1c0),document['getElementById']('DisplayDoneRewards')[_0x2a3dc5(0x166)][_0x2a3dc5(0x192)]=_0x2a3dc5(0x1bd),LoadRedeem();else _0x35e536==0x3&&($(_0x2a3dc5(0x1a0))[_0x2a3dc5(0x169)](_0x2a3dc5(0x1b0)),$(_0x2a3dc5(0x1ad))[_0x2a3dc5(0x169)]('btnCheck'),$(_0x2a3dc5(0x193))[_0x2a3dc5(0x1a3)](_0x2a3dc5(0x1b0)),document[_0x2a3dc5(0x1c1)](_0x2a3dc5(0x1dc))[_0x2a3dc5(0x166)][_0x2a3dc5(0x192)]=_0x2a3dc5(0x1bd),document[_0x2a3dc5(0x1c1)](_0x2a3dc5(0x181))[_0x2a3dc5(0x166)][_0x2a3dc5(0x192)]=_0x2a3dc5(0x1bd),document['getElementById'](_0x2a3dc5(0x18e))[_0x2a3dc5(0x166)]['display']=_0x2a3dc5(0x1bd),document[_0x2a3dc5(0x1c1)](_0x2a3dc5(0x164))['style'][_0x2a3dc5(0x192)]='block',DoneRedeem());}}function ConfirmRedeem(){var _0x47e2f0=_0x533c93;NewDate();var _0x5da8cc=Math[_0x47e2f0(0x1b5)](Date[_0x47e2f0(0x165)]()/0x3e8);dbTNIStocklog[_0x47e2f0(0x1d0)]({'LineID':sessionStorage[_0x47e2f0(0x19f)]('LineID'),'LineName':sessionStorage[_0x47e2f0(0x19f)](_0x47e2f0(0x1cb)),'LinePicture':sessionStorage[_0x47e2f0(0x19f)](_0x47e2f0(0x194)),'EmpGroup':sessionStorage[_0x47e2f0(0x19f)](_0x47e2f0(0x1d4)),'EmpID':sessionStorage[_0x47e2f0(0x19f)](_0x47e2f0(0x172)),'EmpName':sessionStorage[_0x47e2f0(0x19f)]('EmpName'),'StockName':sStockName,'StockImg':sStockImg,'StockDetail':sStockDetail,'ActivePoint':parseFloat(sessionStorage[_0x47e2f0(0x19f)](_0x47e2f0(0x1e3))),'PointRedeem':parseFloat(PointForRedeem),'LastPoint':parseFloat(sessionStorage[_0x47e2f0(0x19f)](_0x47e2f0(0x1e3)))-parseFloat(PointForRedeem),'DateRedeem':dateString,'StatusRedeem':0x0,'DateConfirm':'','MemoConfirm':'','RedeemTimeStamp':_0x5da8cc}),dbTNIStock[_0x47e2f0(0x179)](EidStockID)['update']({'StockRedeem':parseFloat(sStockRedeem)+0x1}),parseFloat(sessionStorage[_0x47e2f0(0x19f)](_0x47e2f0(0x1e3)))>=parseFloat(PointForRedeem)&&(dbTNIRedeemPoint[_0x47e2f0(0x179)](EidRedeemPoint)[_0x47e2f0(0x1bf)]({'TotalPointRedeem':parseFloat(sTotalPointRedeem)+parseFloat(PointForRedeem),'TotalItemRedeem':parseFloat(sTotalItemRedeem)+0x1,'DateRedeem':dateString}),CheckRedeemPoint(),sessionStorage[_0x47e2f0(0x16a)](_0x47e2f0(0x1e3),parseFloat(sessionStorage[_0x47e2f0(0x19f)](_0x47e2f0(0x1e3)))-parseFloat(PointForRedeem)),$('#DisplayLastPoint')[_0x47e2f0(0x1d8)]('<div\x20class=\x22btn-orange\x22\x20style=\x22margin-top:-4px;font-size:\x2014px;\x22>คุณมี\x20'+addCommas(sessionStorage[_0x47e2f0(0x19f)](_0x47e2f0(0x1e3)))+'\x20Point</div>'),document[_0x47e2f0(0x1c1)](_0x47e2f0(0x1dc))['style'][_0x47e2f0(0x192)]=_0x47e2f0(0x1c0),LoadRewardStock(),document[_0x47e2f0(0x1c1)]('id01')[_0x47e2f0(0x166)][_0x47e2f0(0x192)]='none',document['getElementById'](_0x47e2f0(0x16d))[_0x47e2f0(0x166)][_0x47e2f0(0x192)]='block');}function CloseAll(){var _0x326aea=_0x533c93;document[_0x326aea(0x1c1)](_0x326aea(0x1be))['style'][_0x326aea(0x192)]='none',document[_0x326aea(0x1c1)](_0x326aea(0x16d))['style']['display']=_0x326aea(0x1bd);}function addCommas(_0xc27b75){var _0x17d20f=_0x533c93;_0xc27b75+='',x=_0xc27b75[_0x17d20f(0x1cd)]('.'),x1=x[0x0],x2=x['length']>0x1?'.'+x[0x1]:'';var _0x296dd6=/(\d+)(\d{3})/;while(_0x296dd6[_0x17d20f(0x199)](x1)){x1=x1['replace'](_0x296dd6,'$1'+','+'$2');}return x1+x2;}function NewDate(){var _0x9eb43a=_0x533c93,_0x4252d8=new Date(),_0xe61caa=_0x4252d8[_0x9eb43a(0x1d2)]()+'',_0x242ba7=_0x4252d8['getMonth']()+0x1+'',_0x39c0c6=_0x4252d8[_0x9eb43a(0x186)]()+'',_0x553365=_0x4252d8['getHours']()+'',_0x520a6e=_0x4252d8[_0x9eb43a(0x1c8)]()+'',_0x23c7da=_0x4252d8[_0x9eb43a(0x1de)]()+'',_0xa3520c=_0x553365>=0xc?'PM':'AM';_0xe61caa=checkZero(_0xe61caa),_0x242ba7=checkZero(_0x242ba7),_0x39c0c6=checkZero(_0x39c0c6),_0x553365=checkZero(_0x553365),_0x520a6e=checkZero(_0x520a6e),_0x23c7da=checkZero(_0x23c7da),dateString=_0xe61caa+'/'+_0x242ba7+'/'+_0x39c0c6+'\x20'+_0x553365+':'+_0x520a6e+':'+_0x23c7da+'\x20'+_0xa3520c;}function checkZero(_0x2d8263){return _0x2d8263['length']==0x1&&(_0x2d8263='0'+_0x2d8263),_0x2d8263;}
+var cleararray = "";
+var dbTNIStock = "";
+var EidStockID = "";
+var EidRedeem = "";
+var EidRedeemPoint = "";
+var sStockName = "";
+var sStockRedeem = "";
+var sStockImg = "";
+var sStockDetail = "";
+var OpenMenu = 0;
+var PointForRedeem = 0;
+var sTotalPointRedeem = 0;
+var sTotalItemRedeem = 0;
+var dateString = new Date().toLocaleString('en-US', { timeZone: 'Asia/Jakarta' });
+
+$(document).ready(function () {
+    if(sessionStorage.getItem("EmpLevel")==null) { location.href = "index.html"; }
+    $("#DisplayLastPoint").html('<div class="btn-orange" style="margin-top:-4px;font-size: 14px;">คุณมี '+ addCommas(sessionStorage.getItem("ActivePoint")) +' Point</div>');
+    document.getElementById("DisplayShowRewards").style.display = "block";
+  	Connect_DB();
+});
+
+
+function Connect_DB() {
+  var firebaseConfig = {
+    apiKey: "AIzaSyDfTJJ425U4OY0xac6jdhtSxDeuJ-OF-lE",
+    authDomain: "retailproject-6f4fc.firebaseapp.com",
+    projectId: "retailproject-6f4fc",
+    databaseURL: "https://file-upload-6f4fc.firebaseio.com",
+    storageBucket: "retailproject-6f4fc.appspot.com",
+    messagingSenderId: "653667385625",
+    appId: "1:653667385625:web:a5aed08500de80839f0588",
+    measurementId: "G-9SKTRHHSW9"
+  };
+  firebase.initializeApp(firebaseConfig);
+  dbTNIStock = firebase.firestore().collection("TNIStock");
+  dbTNIStocklog = firebase.firestore().collection("TNIStocklog");
+  dbTNIRedeemPoint = firebase.firestore().collection("TNIRedeemPoint");
+  dbStockConfirm = firebase.firestore().collection("TNIStockConfirm");
+  CheckRedeemPoint();
+  LoadRewardStock();
+  LoadNotOpen();
+}
+
+
+function CheckRedeemPoint() {
+  dbTNIRedeemPoint.where('EmpID','==',parseFloat(sessionStorage.getItem("EmpID")))
+  .get().then((snapshot)=> {
+    snapshot.forEach(doc=> {
+      EidRedeemPoint = doc.id;
+      sTotalPointRedeem = doc.data().TotalPointRedeem;
+      sTotalItemRedeem = doc.data().TotalItemRedeem;
+      sessionStorage.setItem("TotalPointRedeem", doc.data().TotalPointRedeem);
+      sessionStorage.setItem("TotalItemRedeem", doc.data().TotalItemRedeem);
+    });
+    //alert(EidRedeemPoint+"==="+sTotalPointRedeem);
+  });
+}
+
+
+var sCodeStock = 0;
+function LoadRewardStock() {
+  var i = 0;
+  var str = "";
+  var RatioPoint = sessionStorage.getItem("ActivePoint");
+  str += '<div class="clr"></div><center><div class="btn-leaderboard"><div>คะแนนแลกเงินรางวัล เปิดให้แลกทุกไตรมาส</div></div></center>';
+  //alert(sessionStorage.getItem("ActivePoint"));
+  dbTNIStock.where('StockStatus','==',1)
+  .orderBy('PointRedeem','asc')
+  .get().then((snapshot)=> {
+    snapshot.forEach(doc=> {
+      i = i+1;
+      var RatioPoint = 0;
+      sCodeStock = doc.data().StockGroup;
+      RatioPoint = ((parseFloat(sessionStorage.getItem("ActivePoint"))/parseFloat(doc.data().PointRedeem))*100);
+      str += '<div class="col-lg-6 col-md-2 slide text-center boxvdo" data-aos="fade-left">';
+      str += '<div class="boxvdo-border member"><div class="boxvdo-img">';
+      str += '<img src="'+doc.data().StockImg+'" class="img-fluid" style="border-radius: 10px;">';
+      if(RatioPoint<100) {
+        str += '<div class="progress"><div class="bar1" style="width:'+RatioPoint.toFixed(2)+'%">';
+        str += '<p class="percent">'+RatioPoint.toFixed(2)+'%</p></div></div></div>';
+        str += '<div class="boxvdo-title"><div class="boxvdo-header">'+doc.data().StockName+'</div>';
+        str += '<div class="boxvdo-line1">'+doc.data().StockDetail+'</div>';
+        str += '<div class="boxvdo-line2"><div class="btn-t0" style="font-size:11px;">ใช้ '+addCommas(doc.data().PointRedeem)+' Point แลก</div>';
+      } else {
+        if(RatioPoint>100) { RatioPoint = 100; }
+        str += '<div class="progress"><div class="bar" style="width:'+RatioPoint.toFixed(2)+'%">';
+        str += '<p class="percent">'+RatioPoint.toFixed(2)+'%</p></div></div></div>';
+        str += '<div class="boxvdo-title"><div class="boxvdo-header">'+doc.data().StockName+'</div>';
+        str += '<div class="boxvdo-line1">'+doc.data().StockDetail+'</div>';
+        str += '<div class="boxvdo-line2"><div class="btn-t2" style="font-size:11px;" onclick="OpenRewards(\''+ doc.id +'\','+i+')">ใช้ '+addCommas(doc.data().PointRedeem)+' Point แลก</div>';
+      }
+      str += '</div></div></div></div>';
+    });
+    $("#DisplayShowRewards").html(str);
+    document.getElementById("DisplayNotOpen").style.display = "block";
+  });
+}
+
+
+
+
+function LoadNotOpen() {
+  var i = 0;
+  var str = "";
+  var RatioPoint = sessionStorage.getItem("ActivePoint");
+  //alert(sessionStorage.getItem("ActivePoint"));
+  //str += '<div class="clr"></div><center><div class="btn-leaderboard"><div>คะแนนแลกของรางวัล Product Apple</div><div>เปิดให้แลกทุกไตรมาส 2,4</div></div></center>';
+  dbTNIStock.where('StockStatus','==',9)
+  .orderBy('PointRedeem','asc')
+  .get().then((snapshot)=> {
+    snapshot.forEach(doc=> {
+      if(doc.data().StockGroup!=sCodeStock) {
+        if(doc.data().StockGroup==2) {
+          str += '<div class="clr"></div><center><div class="btn-leaderboard"><div>คะแนนแลกของรางวัล Product Apple</div><div>เปิดให้แลก เมื่อจบไตรมาส 2,4</div></div></center>';
+        } else if (doc.data().StockGroup==3) {
+          str += '<div class="clr"></div><center><div class="btn-leaderboard"><div>คะแนนแลกของรางวัล ทริปท่องเที่ยว</div><div>เปิดให้แลก เมื่อจบไตรมาส 4</div></div></div></center>';
+        }
+        sCodeStock = doc.data().StockGroup;
+      }
+      i = i+1;
+      //alert(doc.data().StockGroup);
+      var RatioPoint = 0;
+      RatioPoint = ((parseFloat(sessionStorage.getItem("ActivePoint"))/parseFloat(doc.data().PointRedeem))*100);
+      str += '<div class="col-lg-6 col-md-2 slide text-center boxvdo imgblack" data-aos="fade-left">';
+      str += '<div class="boxvdo-border member"><div class="boxvdo-img">';
+      str += '<img src="'+doc.data().StockImg+'" class="img-fluid" style="border-radius: 10px;">';
+/*
+      str += '<div class="progress"><div class="bar1" style="width:'+RatioPoint.toFixed(2)+'%">';
+      str += '<p class="percent">'+RatioPoint.toFixed(2)+'%</p></div></div></div>';
+      str += '<div class="boxvdo-title"><div class="boxvdo-header">'+doc.data().StockName+'</div>';
+      str += '<div class="boxvdo-line1">'+doc.data().StockDetail+'<br><font color="#ff0000">'+doc.data().memo+'</font></div>';
+      str += '<div class="boxvdo-line2"><div class="btn-t0" style="font-size:11px;cursor: default;">ใช้ '+addCommas(doc.data().PointRedeem)+' Point แลก</div>';
+      str += '</div></div></div></div>';
+*/
+      if(RatioPoint<100) {
+        str += '<div class="progress"><div class="bar1" style="width:'+RatioPoint.toFixed(2)+'%">';
+        str += '<p class="percent">'+RatioPoint.toFixed(2)+'%</p></div></div></div>';
+        str += '<div class="boxvdo-title"><div class="boxvdo-header">'+doc.data().StockName+'</div>';
+        str += '<div class="boxvdo-line1">'+doc.data().StockDetail+'</div>';
+        str += '<div class="boxvdo-line2"><div class="btn-t0" style="font-size:11px;cursor:default;">ใช้ '+addCommas(doc.data().PointRedeem)+' Point แลก</div>';
+      } else {
+        if(RatioPoint>100) { RatioPoint = 100; }
+        str += '<div class="progress"><div class="bar" style="width:'+RatioPoint.toFixed(2)+'%">';
+        str += '<p class="percent">'+RatioPoint.toFixed(2)+'%</p></div></div></div>';
+        str += '<div class="boxvdo-title"><div class="boxvdo-header">'+doc.data().StockName+'</div>';
+        str += '<div class="boxvdo-line1">'+doc.data().StockDetail+'</div>';
+        str += '<div class="boxvdo-line2"><div class="btn-t0" style="font-size:11px;cursor:default;">ใช้ '+addCommas(doc.data().PointRedeem)+' Point แลก</div>';
+        //str += '<div class="boxvdo-line2"><div class="btn-t2" style="font-size:11px;" onclick="OpenRewards(\''+ doc.id +'\','+i+')">ใช้ '+addCommas(doc.data().PointRedeem)+' Point แลก</div>';
+      }
+      str += '</div></div></div></div>';
+
+
+    });
+    $("#DisplayNotOpen").html(str);
+  });
+}
+
+
+
+
+function LoadRedeem() {
+  var str = "";
+  //str += '<center><div class="NameLine" style="color:#002d63;margin-bottom:10px;"><u>รายการที่รอการอนุมัติ</u></div></center>';
+  dbTNIStocklog.where('EmpID','==',sessionStorage.getItem("EmpID"))
+  .where('StatusRedeem','==',0)
+  .orderBy('RedeemTimeStamp','desc')
+  .get().then((snapshot)=> {
+    snapshot.forEach(doc=> {
+      str += '<div class="col-lg-6 col-md-2 slide text-center boxvdo" data-aos="fade-left" style="min-height: 100px;">';
+      str += '<div class="boxvdo-border member" style="min-height: 100px;"><div class="boxvdo-img">';
+      str += '<img src="'+doc.data().StockImg+'" class="img-fluid" style="border-radius: 10px;"></div>';
+      str += '<div class="boxvdo-title"><div class="boxvdo-header">'+doc.data().StockName+'</div>';
+      str += '<div class="boxvdo-line1">'+doc.data().StockDetail+'</div>';
+      str += '<div class="boxvdo-line2" style="color:#f68b1f;height:16px;">แลกรางวัลเมื่อ : '+doc.data().DateRedeem+'</div>';
+      str += '</div></div></div>';
+    });
+    $("#DisplayRedeemRewards").html(str);
+  });
+}
+
+
+
+function DoneRedeem() {
+  var str = "";
+  str += '<table class="table table-bordered table-striped table-responsive-stack" style="margin:10px auto;width:95%;">';
+  str += '<thead class="thead-dark"><tr><th>รายการยืนยันการแลกรางวัล</th></tr></thead><tbody>';
+  dbStockConfirm.where('EmpID','==',parseFloat(sessionStorage.getItem("EmpID")))
+  .orderBy('DateRedeem','desc')
+  .get().then((snapshot)=> {
+    snapshot.forEach(doc=> {
+      //str += '<div class="col-lg-6 col-md-2 slide text-center boxvdo" data-aos="fade-left">';
+      //str += '<div>'+addCommas(doc.data().EmpID)+'</div>';
+      //str += '</div>';
+      //str += '';
+
+
+      str += '<tr>';
+      str += '<td style="line-height: 1.3;">รหัสสินค้า <font color="#f68b1f"><b>'+doc.data().StockName+'</b></font>';
+      str += '<br>คะแนนที่แลก <font color="#0056ff">'+addCommas(doc.data().PointRedeem)+' คะแนน</font><br>';
+      str += 'วันที่แลก <font color="#0056ff">'+doc.data().DateRedeem+'</font><br>วันที่นำจ่าย';
+      str += '<font color="#0056ff">'+doc.data().DateConfirm+'</font></td>';
+      str += '</tr>';
+
+      /*
+      str += '<div class="col-lg-6 col-md-2 slide text-center boxvdo" data-aos="fade-left" style="min-height: 100px;">';
+      str += '<div class="boxvdo-border member" style="min-height: 100px;"><div class="boxvdo-img">';
+      str += '<img src="'+doc.data().StockImg+'" class="img-fluid" style="border-radius: 10px;"></div>';
+      str += '<div class="boxvdo-title"><div class="boxvdo-header">'+doc.data().StockName+'</div>';
+      //str += '<div class="boxvdo-line1">'+doc.data().StockDetail+'</div>';
+      str += '<div class="boxvdo-line2" style="color:#f68b1f;height:16px;margin-top:2px;">คะแนนก่อนแลก : <b>'+addCommas(doc.data().ActivePoint)+' Point</b></div>';
+      str += '<div class="boxvdo-line2" style="color:#f68b1f;height:16px;">คะแนนที่ใช้แลก : <b>'+addCommas(doc.data().PointRedeem)+' Point</b></div>';
+      str += '<div class="boxvdo-line2" style="color:#f68b1f;height:16px;">คะแนนคงเหลือ : <b>'+addCommas(doc.data().LastPoint)+' Point</b></div>';
+      str += '<div class="boxvdo-line2" style="color:#f68b1f;height:16px;">แลกรางวัลเมื่อ : <b>'+doc.data().DateRedeem+'</b></div>';
+      str += '<div class="boxvdo-line2" style="color:#f68b1f;height:16px;">รายการสำเร็จ : <b>'+doc.data().DateConfirm+'</b></div>';
+      str += '</div></div></div>';
+      */
+    });
+    str += '</tbody></table>';
+    $("#DisplayDoneRewards").html(str);
+  });
+}
+
+
+function OpenRewards(x) {
+  dbTNIStock.where(firebase.firestore.FieldPath.documentId(), "==", x)
+  .get().then((snapshot)=> {
+  snapshot.forEach(doc=> {
+      //EidRedeem = doc.id;
+      EidStockID = doc.id;
+      PointForRedeem = doc.data().PointRedeem;
+      sStockName = doc.data().StockName;
+      sStockRedeem = doc.data().StockRedeem;
+      sStockImg = doc.data().StockImg;
+      sStockDetail = doc.data().StockDetail;
+
+      $("#DisplayImg").html('<img src="'+doc.data().StockImg+'" width="100%">');
+      $("#DisplayStockName").html('<div class="boxvdo-header" style="text-align:left;">'+doc.data().StockName+'</div>');
+      $("#DisplayStockDetail").html('<div class="boxvdo-line1" style="text-align:left;height:auto;">'+doc.data().StockDetail+'</div>');
+      $("#DisplayTotalRedeem").html(addCommas(doc.data().StockRedeem)+" item");
+      $("#DisplayScorePoint").html(addCommas(sessionStorage.getItem("ActivePoint"))+" Point");
+      $("#DisplayRedeemPoint").html(addCommas(doc.data().PointRedeem)+" Point");
+      $("#DisplayTotalPoint").html(addCommas((sessionStorage.getItem("ActivePoint")-doc.data().PointRedeem))+" Point");
+    });
+  });
+  document.getElementById("id01").style.display = "block";
+}
+
+
+function OpenStock(x,r) {
+  location.href = "vdo-mondee.html?gid="+x+"";
+}
+
+
+function ClickMenu(x) {
+  if(x==1) {
+    $('#mm1').addClass('btnCheck');
+    $('#mm2').removeClass('btnCheck');
+    $('#mm3').removeClass('btnCheck');
+    document.getElementById("DisplayShowRewards").style.display = "block";
+    document.getElementById("DisplayNotOpen").style.display = "block";
+    document.getElementById("DisplayRedeemRewards").style.display = "none";
+    document.getElementById("DisplayDoneRewards").style.display = "none";
+  } else if(x==2) { 
+    $('#mm1').removeClass('btnCheck');
+    $('#mm2').addClass('btnCheck');
+    $('#mm3').removeClass('btnCheck');
+    document.getElementById("DisplayShowRewards").style.display = "none";
+    document.getElementById("DisplayNotOpen").style.display = "none";
+    document.getElementById("DisplayRedeemRewards").style.display = "block";
+    document.getElementById("DisplayDoneRewards").style.display = "none";
+    LoadRedeem();
+  } else if(x==3) { 
+    $('#mm1').removeClass('btnCheck');
+    $('#mm2').removeClass('btnCheck');
+    $('#mm3').addClass('btnCheck');
+    document.getElementById("DisplayShowRewards").style.display = "none";
+    document.getElementById("DisplayNotOpen").style.display = "none";
+    document.getElementById("DisplayRedeemRewards").style.display = "none";
+    document.getElementById("DisplayDoneRewards").style.display = "block";
+    DoneRedeem();
+  }
+}
+
+
+function ConfirmRedeem() {
+  NewDate();
+  var TimeStampDate = Math.round(Date.now() / 1000);
+  dbTNIStocklog.add({
+    LineID : sessionStorage.getItem("LineID"),
+    LineName : sessionStorage.getItem("LineName"),
+    LinePicture : sessionStorage.getItem("LinePicture"),
+    EmpGroup : sessionStorage.getItem("EmpGroup"),
+    EmpID : sessionStorage.getItem("EmpID"),
+    EmpName : sessionStorage.getItem("EmpName"),
+    StockName : sStockName,
+    StockImg : sStockImg,
+    StockDetail : sStockDetail,
+    ActivePoint : parseFloat(sessionStorage.getItem("ActivePoint")),
+    PointRedeem : parseFloat(PointForRedeem),
+    LastPoint : parseFloat(sessionStorage.getItem("ActivePoint"))-parseFloat(PointForRedeem),
+    DateRedeem : dateString,
+    StatusRedeem : 0,
+    DateConfirm : "",
+    MemoConfirm : "",
+    RedeemTimeStamp : TimeStampDate
+  });
+  dbTNIStock.doc(EidStockID).update({
+    StockRedeem : parseFloat(sStockRedeem)+1
+  });
+  if(parseFloat(sessionStorage.getItem("ActivePoint"))>=parseFloat(PointForRedeem)) {
+    dbTNIRedeemPoint.doc(EidRedeemPoint).update({
+      TotalPointRedeem : parseFloat(sTotalPointRedeem)+parseFloat(PointForRedeem),
+      TotalItemRedeem : parseFloat(sTotalItemRedeem)+1,
+      DateRedeem : dateString
+    });    
+    CheckRedeemPoint();
+    sessionStorage.setItem("ActivePoint", parseFloat(sessionStorage.getItem("ActivePoint"))-parseFloat(PointForRedeem) );
+    $("#DisplayLastPoint").html('<div class="btn-orange" style="margin-top:-4px;font-size: 14px;">คุณมี '+ addCommas(sessionStorage.getItem("ActivePoint")) +' Point</div>');
+    document.getElementById("DisplayShowRewards").style.display = "block";
+    LoadRewardStock();
+    document.getElementById('id01').style.display='none';
+    document.getElementById('id02').style.display='block';
+  }
+  //alert("Save Done");
+}
+
+
+function CloseAll() {
+	document.getElementById('id01').style.display='none';
+  document.getElementById('id02').style.display='none';
+}
+
+
+function addCommas(nStr) {
+  nStr += '';
+  x = nStr.split('.');
+  x1 = x[0];
+  x2 = x.length > 1 ? '.' + x[1] : '';
+  var rgx = /(\d+)(\d{3})/;
+  while (rgx.test(x1)) {
+    x1 = x1.replace(rgx, '$1' + ',' + '$2');
+  }
+  return x1 + x2;
+}
+
+
+function NewDate() {
+  var today = new Date();
+  var day = today.getDate() + "";
+  var month = (today.getMonth() + 1) + "";
+  var year = today.getFullYear() + "";
+  var hour = today.getHours() + "";
+  var minutes = today.getMinutes() + "";
+  var seconds = today.getSeconds() + "";
+  var ampm = hour >= 12 ? 'PM' : 'AM';
+  day = checkZero(day);
+  month = checkZero(month);
+  year = checkZero(year);
+  hour = checkZero(hour);
+  minutes = checkZero(minutes);
+  seconds = checkZero(seconds);
+  dateString = day + "/" + month + "/" + year + " " + hour + ":" + minutes + ":" + seconds +" "+ ampm;
+}
+
+
+function checkZero(data){
+  if(data.length == 1){
+    data = "0" + data;
+  }
+  return data;
+}
