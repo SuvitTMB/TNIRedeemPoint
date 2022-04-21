@@ -250,7 +250,7 @@ function SaveData() {
   if(EidProfile=="") {
     dbProfile.add({
       lineID : sessionStorage.getItem("LineID"),
-      lineName : sessionStorage.getItem("LineName"),
+      linename : sessionStorage.getItem("LineName"),
       linePicture : sessionStorage.getItem("LinePicture"),
       empPicture : sessionStorage.getItem("LinePicture"),
       empID : document.getElementById("txtEmpID").value,
