@@ -213,33 +213,22 @@ function CheckNewRedeemPoint() {
 }
 
 
-/*
-function OpenForm() {
-  if(CheckFoundData==1) {
-    document.getElementById('Loading').style.display='none';
-    document.getElementById('myRegister').style.display='block';
-    document.getElementById('myTimer').style.display='none';
-  } else {
-    document.getElementById('Loading').style.display='none';
-    document.getElementById('myRegister').style.display='block';
-    document.getElementById('myTimer').style.display='none';
-  }
-}
-*/
-
 function WaitingPage() {
   //alert(CheckFoundData);
   var str = "";
   str +='<center><div><img src="./img/stop.png" width="250px;"></div>';
   str +='<div style="margin-top:20px;"><br><div class="text-waiting">เรียน <font color="#0056ff"><b>คุณ'+sessionStorage.getItem("EmpName")+'</b></font>';
   if(CheckFoundData==2) {
+    sMemberlog = "รอการอนุมัติ";
     str +='<br><b><font color="#ff0000">คุณยังไม่ได้รับสิทธิ์ในการเข้าใช้งานระบบนี้<br>โปรดรอการอนุมัติภายใน 24 ชั่วโมง</font></b></div>';
   } else {
+    sMemberlog = "ไม่ได้รับสิทธิ์";
     str +='<br><b><font color="#ff0000">คุณไม่ได้รับสิทธิ์ในการเข้าใช้งานระบบนี้</font></b></div>';
     str +='<a href="mailto:suvit.cha@ttbbank.com&subject=แจ้งขอใช้ระบบงานของ LINE Retail Society&body=กรุณาระบุเหตุผลที่ต้องการใช้งาน" style="text-decoration: none;"><div class="btn-t2">แจ้งเราหากคุณต้องการใช้งาน</div></a>';
   }
   //str +='<div class="btn-t1" onclick="EditData()">คลิกเพื่อตรวจสอบข้อมูล</div>';
   str +='</div></center>';
+  SaveBA_Log();
   $("#MyWatingPage").html(str);  
   document.getElementById('Loading').style.display='none';
   document.getElementById('myRegister').style.display='none';
