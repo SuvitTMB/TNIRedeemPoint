@@ -162,22 +162,6 @@ function CheckTNIapprove() {
 }
 
 
-function SaveBA_Log() {
-  NewDate();
-  var TimeStampDate = Math.round(Date.now() / 1000);
-  dbTNIlog.add({
-    LineID : sessionStorage.getItem("LineID"),
-    LineName : sessionStorage.getItem("LineName"),
-    LinePicture : sessionStorage.getItem("LinePicture"),
-    EmpID : sessionStorage.getItem("EmpID"),
-    EmpName : sessionStorage.getItem("EmpName"),
-    PageVisit : sMemberlog,
-    LogDateTime : dateString,
-    LogTimeStamp : TimeStampDate
-  });
-}
-
-
 function CheckNewRedeemPoint() {
   dbTNIRedeemPoint.where('EmpID','==',parseFloat(sessionStorage.getItem("EmpID")))
   .limit(1)
@@ -238,7 +222,6 @@ function WaitingPage() {
 
 function ClickSaveProfile() {
   var sCheckBottom = 0;
-  //alert($("input[type=checkbox][id=cb1]:checked").val());
   stxtEmpID = document.getElementById("txtEmpID").value;
   stxtEmpName = document.getElementById("txtEmpName").value;
   stxtEmpPhone = document.getElementById("txtEmpPhone").value;
@@ -253,6 +236,20 @@ function ClickSaveProfile() {
 }
 
 
+function SaveBA_Log() {
+  NewDate();
+  var TimeStampDate = Math.round(Date.now() / 1000);
+  dbTNIlog.add({
+    LineID : sessionStorage.getItem("LineID"),
+    LineName : sessionStorage.getItem("LineName"),
+    LinePicture : sessionStorage.getItem("LinePicture"),
+    EmpID : sessionStorage.getItem("EmpID"),
+    EmpName : sessionStorage.getItem("EmpName"),
+    PageVisit : sMemberlog,
+    LogDateTime : dateString,
+    LogTimeStamp : TimeStampDate
+  });
+}
 
 
 function SaveData() {
@@ -269,7 +266,6 @@ function SaveData() {
       empGroup : document.getElementById("txtEmpGroup").value,
       empRH : document.getElementById("txtEmpGroup").value,
       empAddress : '',
-      //StatusRegister : 0;
       statusconfirm : 2,
       statusedit : 1,
       statuspass : 0,
@@ -282,19 +278,6 @@ function SaveData() {
     });
     document.getElementById('myRegister').style.display='none';
     document.getElementById('myTimer').style.display='block';
-/*
-  } else {
-    dbProfile.doc(EidProfile).update({
-      LineID : sessionStorage.getItem("LineID"),
-      LineName : sessionStorage.getItem("LineName"),
-      LinePicture : sessionStorage.getItem("LinePicture"),
-      EmpID : document.getElementById("txtEmpID").value,
-      EmpName : document.getElementById("txtEmpName").value,
-      EmpPhone : document.getElementById("txtEmpPhone").value,
-      EmpGroup : document.getElementById("txtEmpGroup").value,
-      DateRegister : dateString
-    });
-*/
   }
   document.getElementById('myRegister').style.display='none';
   document.getElementById('WaitingPage').style.display='block';
