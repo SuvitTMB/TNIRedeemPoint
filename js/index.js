@@ -110,11 +110,11 @@ function CheckData() {
   .get().then((snapshot)=> {
     snapshot.forEach(doc=> {
       CheckFoundData = 1;
+      sessionStorage.setItem("EmpID", doc.data().empID);
       sessionStorage.setItem("EmpName", doc.data().empName);
       if(doc.data().statusconfirm==1) {
         EidProfile = doc.id;
         sDateRegister = doc.data().DateRegister;
-        sessionStorage.setItem("EmpID", doc.data().empID);
         document.getElementById("txtEmpID").value = doc.data().empID;
         document.getElementById("txtEmpName").value = doc.data().empName;
         document.getElementById("txtEmpPhone").value = doc.data().empPhone;
