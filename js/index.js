@@ -13,7 +13,7 @@ var sCheckTNIapprove = 0
 var sCheckLevel = 0;
 var sCodeName = "TNIRedeemPoint"
 const x = document.querySelectorAll(`div.com[min="${i}"]`);
-
+var sMemberlog = "";
 
 
 $(document).ready(function () {
@@ -85,6 +85,7 @@ function Connect_DB() {
   dbTNIdate = firebase.firestore().collection("TNIdate");
   dbTNIapprove = firebase.firestore().collection("TNImember");
   dbTNIRedeemPoint = firebase.firestore().collection("TNIRedeemPoint");
+  dbTNIlog = firebase.firestore().collection("TNIlog");
   CheckTNIdate();
   CheckData();
 }
@@ -144,15 +145,35 @@ function CheckTNIapprove() {
       sTNIapprove = 1;
       sessionStorage.setItem("EmpGroup", doc.data().EmpGroup);
       sessionStorage.setItem("EmpLevel", 1);
+      sMemberlog = "สำเร็จ";
+      SaveBA_Log();
       CheckNewRedeemPoint();
       //location.href = 'home.html';
     });
     if(sTNIapprove==0) {
+      sMemberlog = "ไม่สำเร็จ";
+      SaveBA_Log();
       sTNIapprove = doc.data().statusconfirm;
       WaitingPage()
       //document.getElementById('Loading').style.display='none';
       //document.getElementById('myTimer').style.display='block';
     }
+  });
+}
+
+
+function SaveBA_Log() {
+  NewDate();
+  var TimeStampDate = Math.round(Date.now() / 1000);
+  dbTNIlog.add({
+    LineID : sessionStorage.getItem("LineID"),
+    LineName : sessionStorage.getItem("LineName"),
+    LinePicture : sessionStorage.getItem("LinePicture"),
+    EmpID : sessionStorage.getItem("EmpID"),
+    EmpName : sessionStorage.getItem("EmpName"),
+    PageVisit : sMemberlog,
+    LogDateTime : dateString,
+    LogTimeStamp : TimeStampDate
   });
 }
 
