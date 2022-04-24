@@ -123,13 +123,14 @@
   <div style="font-size:12px;font-weight: 600;margin-bottom: 50px;"><font color="green">LINE</font> <font color="#002d63">Retail</font> <font color="#0056ff">So</font><font color="#f68b1f">ciety</font></div>
 </footer>
 
+
 <div id="id01" class="w3-modal w3-animate-opacity">
   <div class="w3-modal-content w3-card-4">
-    <div class="w3-container" style="min-height:300px;padding:24px;width:100%;text-align:center;">
+    <div class="w3-container" style="min-height:300px;padding:24px;width:100%;text-align:center;max-width: 450px;margin:auto;">
       <div>
         <center>
           <div class="text-4heart1" style="padding:30px 40px 20px 40px; color:#0056ff;">แลกของรางวัล</div>
-          <div style="text-align: center;"><div id="DisplayImg"></div></div>
+          <div style="text-align: center;margin-top:-10px;"><div id="DisplayImg"></div></div>
         </center>
           <div id="DisplayStockName"></div>
           <div id="DisplayStockDetail"></div>
@@ -154,12 +155,16 @@
       </div>
       <div class="clr" style="height: 10px;"></div>
       <div style="color:#ff0000; font-size: 11px; text-align: left; line-height: 1.3;margin-bottom: 14px;">
+        <div id="ShowRemark"></div>
+<!--
         <br><font color="#000000">คำเตือน : </font> 
         <br>Point สำหรับการแลกรางวัลของท่านจะลดลงเมื่อท่านได้ทำการแลกของรางวัลตามรายการที่กำหนดไว้ 
-        ท่านจะไม่สามารถทำการยกเลิกการแลกของรางวัล และไม่สามารถเปลี่ยนแปลงใดๆ ได้อีก ขอให้ทำการตัดสินใจก่อน คลิก <font color="#000000">"ยืนยันแลกรางวัล"</font> ที่ปุ่มด้านล่าง</div>
+        ท่านจะไม่สามารถทำการยกเลิกการแลกของรางวัล และไม่สามารถเปลี่ยนแปลงใดๆ ได้อีก ขอให้ทำการตัดสินใจก่อน คลิก <font color="#000000">"ยืนยันแลกรางวัล"</font> ที่ปุ่มด้านล่าง
+-->
+        </div>
       <center>
-        <div class="btn-t1" onclick="ConfirmRedeem()" style="font-size: 11px;">ยืนยันแลกรางวัล</div>
-        <div class="btn-t2" onclick="CloseAll()" style="font-size: 11px;">ยกเลิก</div>
+        <div class="btn-t1" onclick="ConfirmRedeem()" style="font-size: 11px;width:260px;">ยืนยันการแลกรางวัล</div>
+        <div class="btn-t2" onclick="CloseAll()" style="font-size: 11px;width:260px;">ยกเลิกรายการ</div>
       </center>
     </div>
   </div>
