@@ -13,6 +13,7 @@ var sCheckTNIapprove = 0
 var sCheckLevel = 0;
 var sCodeName = "TNIRedeemPoint"
 const x = document.querySelectorAll(`div.com[min="${i}"]`);
+var sMemberlog = "";
 
 
 
@@ -87,6 +88,7 @@ function Connect_DB() {
   dbTNIdate = firebase.firestore().collection("TNIdate");
   dbTNIapprove = firebase.firestore().collection("TNImember");
   dbTNIRedeemPoint = firebase.firestore().collection("TNIRedeemPoint");
+  dbTNIlog = firebase.firestore().collection("TNIlog");
   CheckTNIdate();
   CheckData();
 }
@@ -146,14 +148,15 @@ function CheckTNIapprove() {
       sTNIapprove = 1;
       sessionStorage.setItem("EmpGroup", doc.data().EmpGroup);
       sessionStorage.setItem("EmpLevel", 1);
+      sMemberlog = "สำเร็จ";
+      SaveBA_Log();
       CheckNewRedeemPoint();
-      //location.href = 'home.html';
     });
     if(sTNIapprove==0) {
+      sMemberlog = "ไม่สำเร็จ";
+      SaveBA_Log();
       sTNIapprove = doc.data().statusconfirm;
       WaitingPage()
-      //document.getElementById('Loading').style.display='none';
-      //document.getElementById('myTimer').style.display='block';
     }
   });
 }
@@ -214,13 +217,16 @@ function WaitingPage() {
   str +='<center><div><img src="./img/stop.png" width="250px;"></div>';
   str +='<div style="margin-top:20px;"><br><div class="text-waiting">เรียน <font color="#0056ff"><b>คุณ'+sessionStorage.getItem("EmpName")+'</b></font>';
   if(CheckFoundData==2) {
+    sMemberlog = "รอการอนุมัติ";
     str +='<br><b><font color="#ff0000">คุณยังไม่ได้รับสิทธิ์ในการเข้าใช้งานระบบนี้<br>โปรดรอการอนุมัติภายใน 24 ชั่วโมง</font></b></div>';
   } else {
+    sMemberlog = "ไม่ได้รับสิทธิ์";
     str +='<br><b><font color="#ff0000">คุณไม่ได้รับสิทธิ์ในการเข้าใช้งานระบบนี้</font></b></div>';
     str +='<a href="mailto:suvit.cha@ttbbank.com&subject=แจ้งขอใช้ระบบงานของ LINE Retail Society&body=กรุณาระบุเหตุผลที่ต้องการใช้งาน" style="text-decoration: none;"><div class="btn-t2">แจ้งเราหากคุณต้องการใช้งาน</div></a>';
   }
   //str +='<div class="btn-t1" onclick="EditData()">คลิกเพื่อตรวจสอบข้อมูล</div>';
   str +='</div></center>';
+  SaveBA_Log();
   $("#MyWatingPage").html(str);  
   document.getElementById('Loading').style.display='none';
   document.getElementById('myRegister').style.display='none';
@@ -245,6 +251,20 @@ function ClickSaveProfile() {
 }
 
 
+function SaveBA_Log() {
+  NewDate();
+  var TimeStampDate = Math.round(Date.now() / 1000);
+  dbTNIlog.add({
+    LineID : sessionStorage.getItem("LineID"),
+    LineName : sessionStorage.getItem("LineName"),
+    LinePicture : sessionStorage.getItem("LinePicture"),
+    EmpID : sessionStorage.getItem("EmpID"),
+    EmpName : sessionStorage.getItem("EmpName"),
+    PageVisit : sMemberlog,
+    LogDateTime : dateString,
+    LogTimeStamp : TimeStampDate
+  });
+}
 
 
 function SaveData() {
