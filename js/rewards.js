@@ -60,67 +60,18 @@ function CheckRedeemPoint() {
 
 
 var sCodeStock = 0;
-/*
-function LoadRewardStock() {
-  var i = 0;
-  var str = "";
-  var RatioPoint = sessionStorage.getItem("ActivePoint");
-  str += '<div class="clr"></div><center><div class="btn-leaderboard"><div>คะแนนแลกเงินรางวัล เปิดให้แลกทุกไตรมาส</div></div></center>';
-  //alert(sessionStorage.getItem("ActivePoint"));
-  dbTNIStock.where('StockStatus','==',1)
-  .orderBy('PointRedeem','asc')
-  .get().then((snapshot)=> {
-    snapshot.forEach(doc=> {
-      i = i+1;
-      var RatioPoint = 0;
-      sCodeStock = doc.data().StockGroup;
-      RatioPoint = ((parseFloat(sessionStorage.getItem("ActivePoint"))/parseFloat(doc.data().PointRedeem))*100);
-      str += '<div class="col-lg-6 col-md-2 slide text-center boxvdo" data-aos="fade-left">';
-      str += '<div class="boxvdo-border member"><div class="boxvdo-img">';
-      str += '<img src="'+doc.data().StockImg+'" class="img-fluid" style="border-radius: 10px;">';
-      if(RatioPoint<100) {
-        str += '<div class="progress"><div class="bar1" style="width:'+RatioPoint.toFixed(2)+'%">';
-        str += '<p class="percent">'+RatioPoint.toFixed(2)+'%</p></div></div></div>';
-        str += '<div class="boxvdo-title"><div class="boxvdo-header">'+doc.data().StockName+'</div>';
-        str += '<div class="boxvdo-line1">'+doc.data().StockDetail+'</div>';
-        str += '<div class="boxvdo-line2"><div class="btn-t0" style="font-size:11px;">ใช้ '+addCommas(doc.data().PointRedeem)+' Point แลก</div>';
-      } else {
-        if(RatioPoint>100) { RatioPoint = 100; }
-        str += '<div class="progress"><div class="bar" style="width:'+RatioPoint.toFixed(2)+'%">';
-        str += '<p class="percent">'+RatioPoint.toFixed(2)+'%</p></div></div></div>';
-        str += '<div class="boxvdo-title"><div class="boxvdo-header">'+doc.data().StockName+'</div>';
-        str += '<div class="boxvdo-line1">'+doc.data().StockDetail+'</div>';
-        str += '<div class="boxvdo-line2"><div class="btn-t2" style="font-size:11px;" onclick="OpenRewards(\''+ doc.id +'\','+i+')">ใช้ '+addCommas(doc.data().PointRedeem)+' Point แลก</div>';
-      }
-      str += '</div></div></div></div>';
-    });
-    $("#DisplayShowRewards").html(str);
-    document.getElementById("DisplayNotOpen").style.display = "block";
-  });
-}
-*/
-
-
-
 function LoadReward() {
   var i = 0;
   var str = "";
   var RatioPoint = sessionStorage.getItem("ActivePoint");
   sCodeStock = 0
-  //alert(sessionStorage.getItem("ActivePoint"));
-  //str += '<div class="clr"></div><center><div class="btn-leaderboard"><div>คะแนนแลกของรางวัล Product Apple</div><div>เปิดให้แลกทุกไตรมาส 2,4</div></div></center>';
-  //dbTNIStock
-  //.where('StockStatus','==',9)
-  //.orderBy('StockGroup','asc')
-  //.orderBy('PointRedeem','asc')
-
   dbTNIStock
   .orderBy('PointRedeem','asc')
   .get().then((snapshot)=> {
     snapshot.forEach(doc=> {
       if(doc.data().StockGroup!=sCodeStock) {
         if(doc.data().StockGroup==1) {
-          str += '<div class="clr"></div><center><div class="btn-leaderboard"><div>คะแนนแลกเงินรางวัล เปิดให้แลกทุกไตรมาส</div></div></center>';
+          str += '<div class="clr"></div><center><div class="btn-leaderboard"><div>คะแนนแลกเงินรางวัล</div></div></center>';
           str += '<div class="group-remark"><b>รอบการนำจ่ายรางวัล</b><br><br>';
           str += '<ul style="margin-left:-25px;"><li>รายการแลกตั้งแต่วันที่ 1 – 31 พ.ค. 65 เงินรางวัลจะเข้ารอบเงินเดือน มิ.ย. 65</li><li>รายการแลกตั้งแต่วันที่ 1 มิ.ย. – 31 ก.ค. 65 เงินรางวัลจะเข้ารอบเงินเดือน ส.ค.65</li><li>รายการแลกตั้งแต่วันที่ 1 ส.ค. – 31 ต.ค. 65 เงินรางวัลจะเข้ารอบเงินเดือน พ.ย.65</li><li>รายการแลกตั้งแต่วันที่ 1 พ.ย. 65 – 31 ม.ค. 66 เงินรางวัลจะเข้ารอบเงินเดือน ก.พ. 66</li></ul></div>';
         } else if(doc.data().StockGroup==2) {
@@ -128,7 +79,7 @@ function LoadReward() {
           str += '<div class="group-remark"><b>หมายเหตุ</b> : <br>การแลกของรางวัลประเภท Product Apple ของรางวัลนี้เป็นไปตามเงื่อนไขที่กำหนด ไม่สามารถเลือกสี และเปลี่ยนแปลงรุ่นของรางวัลได้ <br><br>';
           str += '<b>รอบการนำจ่ายรางวัล</b><br><ul style="margin-left:-25px;"><li>รอบการทำรายการแลกตั้งแต่วันที่ 1 พ.ค. 65 – 31 ก.ค. 65 ท่านจะได้รับของภายใน<b>เดือน ต.ค.65</b></li><li>ทำรายการแลกตั้งแต่วันที่ 1 ส.ค. 65 – 31 ม.ค. 66 ท่านจะได้รับของภายใน<b>เดือน เม.ย.66</b></li></ul></div>';
         } else if (doc.data().StockGroup==3) {
-          str += '<div class="clr"></div><center><div class="btn-leaderboard"><div>คะแนนแลกของรางวัล ทริปท่องเที่ยว</div><div>เปิดให้แลก เมื่อจบไตรมาส 4</div></div></div></center>';
+          str += '<div class="clr"></div><center><div class="btn-leaderboard"><div>คะแนนแลกของรางวัล ทริปท่องเที่ยว</div></div></div></center>';
           str += '<div class="group-remark"><b>หมายเหตุ</b> :<br><br>';
           str += '<ul style="margin-left:-25px;"><li>ในกรณีไม่สามารถจัด Trip ไป  Moscow ได้ จะเปลี่ยนแปลงประเทศและแจ้งให้ทราบอีกครั้งและกำหนดการเดินทางจะแจ้งให้ทราบในภายหลัง</li><li>กรณีที่ไม่สามารถจัดทริปเดินทางได้ และยังไม่มีค่าใช้จ่ายในการจัดทริปเกิดขึ้น จะจ่ายเป็นเงินรางวัลตามมูลค่าทริป 60,000 บาทแทน ทั้งนี้หากมีค่าใช้จ่ายเกิดขึ้นแล้วบางส่วน จะจ่ายคืนเป็นเงินรางวัลตามสัดส่วนหลังหักค่าใช้จ่าย</li></ul></div>';
         }
@@ -166,61 +117,6 @@ function LoadReward() {
     //document.getElementById("DisplayNotOpen").style.display = "block";
   });
 }
-
-
-
-/*
-function LoadNotOpen() {
-  var i = 0;
-  var str = "";
-  var RatioPoint = sessionStorage.getItem("ActivePoint");
-  //alert(sessionStorage.getItem("ActivePoint"));
-  //str += '<div class="clr"></div><center><div class="btn-leaderboard"><div>คะแนนแลกของรางวัล Product Apple</div><div>เปิดให้แลกทุกไตรมาส 2,4</div></div></center>';
-  dbTNIStock.where('StockStatus','==',9)
-  .orderBy('PointRedeem','asc')
-  .get().then((snapshot)=> {
-    snapshot.forEach(doc=> {
-      if(doc.data().StockGroup!=sCodeStock) {
-        if(doc.data().StockGroup==1) {
-          str += '<div class="clr"></div><center><div class="btn-leaderboard"><div>คะแนนแลกเงินรางวัล เปิดให้แลกทุกไตรมาส</div></div></center>';
-        } else if(doc.data().StockGroup==2) {
-          str += '<div class="clr"></div><center><div class="btn-leaderboard"><div>คะแนนแลกของรางวัล Product Apple</div><div>เปิดให้แลก เมื่อจบไตรมาส 2,4</div></div></center>';
-        } else if (doc.data().StockGroup==3) {
-          str += '<div class="clr"></div><center><div class="btn-leaderboard"><div>คะแนนแลกของรางวัล ทริปท่องเที่ยว</div><div>เปิดให้แลก เมื่อจบไตรมาส 4</div></div></div></center>';
-        }
-        sCodeStock = doc.data().StockGroup;
-      }
-      i = i+1;
-      //alert(doc.data().StockGroup);
-      var RatioPoint = 0;
-      RatioPoint = ((parseFloat(sessionStorage.getItem("ActivePoint"))/parseFloat(doc.data().PointRedeem))*100);
-      str += '<div class="col-lg-6 col-md-2 slide text-center boxvdo imgblack" data-aos="fade-left">';
-      str += '<div class="boxvdo-border member"><div class="boxvdo-img">';
-      str += '<img src="'+doc.data().StockImg+'" class="img-fluid" style="border-radius: 10px;">';
-      if(RatioPoint<100) {
-        str += '<div class="progress"><div class="bar1" style="width:'+RatioPoint.toFixed(2)+'%">';
-        str += '<p class="percent">'+RatioPoint.toFixed(2)+'%</p></div></div></div>';
-        str += '<div class="boxvdo-title"><div class="boxvdo-header">'+doc.data().StockName+'</div>';
-        str += '<div class="boxvdo-line1">'+doc.data().StockDetail+'</div>';
-        str += '<div class="boxvdo-line2"><div class="btn-t0" style="font-size:11px;cursor:default;">ใช้ '+addCommas(doc.data().PointRedeem)+' Point แลก</div>';
-      } else {
-        if(RatioPoint>100) { RatioPoint = 100; }
-        str += '<div class="progress"><div class="bar" style="width:'+RatioPoint.toFixed(2)+'%">';
-        str += '<p class="percent">'+RatioPoint.toFixed(2)+'%</p></div></div></div>';
-        str += '<div class="boxvdo-title"><div class="boxvdo-header">'+doc.data().StockName+'</div>';
-        str += '<div class="boxvdo-line1">'+doc.data().StockDetail+'</div>';
-        str += '<div class="boxvdo-line2"><div class="btn-t0" style="font-size:11px;cursor:default;">ใช้ '+addCommas(doc.data().PointRedeem)+' Point แลก</div>';
-        //str += '<div class="boxvdo-line2"><div class="btn-t2" style="font-size:11px;" onclick="OpenRewards(\''+ doc.id +'\','+i+')">ใช้ '+addCommas(doc.data().PointRedeem)+' Point แลก</div>';
-      }
-      str += '</div></div></div></div>';
-
-
-    });
-    $("#DisplayNotOpen").html(str);
-  });
-}
-*/
-
 
 
 function LoadRedeem() {
